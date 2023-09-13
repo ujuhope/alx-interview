@@ -16,8 +16,3 @@ const exactOrder = (actors, x) => {
   });
 };
 
-    Promise.all(charactersName)
-      .then(names => console.log(names.join('\n')))
-      .catch(allErr => console.log(allErr));
-  });
-}
